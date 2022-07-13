@@ -18,7 +18,7 @@ function App() {
           {transactionsWrapper.map((transactionWrapper: TransactionWrapper, index) =>
             <div key={index}>
               {transactionWrapper.transactions.map((transaction, index) =>
-                <h2>{`${index + 1} ${transaction.description}`}</h2>)}
+                <h2 key={index}>{`${index + 1} ${transaction.description}`}</h2>)}
             </div>)};
         </main>
       </header>
