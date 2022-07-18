@@ -1,9 +1,13 @@
-.container {
+.card-content-container {
     display: flex;
     flex-direction: row;
     align-items: center;
+    /* border: 1px solid black; */
+    /* box-shadow: 0 5px 0 red; */
+    /* justify-content: space-between; */
+    gap: 10px 10px;
 }
 
-.container img {
-    width: 5%;
+.card-content-container img {
+    width: 10%;
 }

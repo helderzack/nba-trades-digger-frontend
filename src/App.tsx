@@ -31,12 +31,11 @@ function App() {
             </div>;
           })} */}
           {
-            teamsData.map((teamData, index) => <div key={index}>
-              <TeamCard teamFirstName={teamData.teamFirstName} 
-              teamLastName={teamData.teamLastName} 
+            teamsData.map((teamData, index) => 
+            <TeamCard teamFirstName={teamData.teamFirstName}
+              teamLastName={teamData.teamLastName}
               teamLogo={teamData.teamLogo}
-              key={index}/>
-            </div>)
+              key={index}/>)
           }
         </main>
       </header>

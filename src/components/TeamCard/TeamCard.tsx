@@ -8,7 +8,7 @@ interface TeamCardProps {
 
 function TeamCard(props: TeamCardProps) {
     return(
-        <div className='container'>
+        <div className='card-content-container'>
             <img src={props.teamLogo} alt={`${props.teamFirstName} Logo`}/>
             <span>{`${props.teamFirstName} ${props.teamLastName}`}</span>
         </div>

@@ -1,153 +1,155 @@
+const LOGO_URL = 'https://a.espncdn.com/i/teamlogos/nba/500/';
+
 const TEAMS_DATA = [
         {
                 teamFirstName: 'Atlanta',
                 teamLastName: 'Hawks',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/atl.png'
+                teamLogo: `${LOGO_URL}atl.png`
         },
         {
                 teamFirstName: 'Boston',
                 teamLastName: 'Celtics',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/bos.png'
+                teamLogo: `${LOGO_URL}bos.png`
         },
         {
                 teamFirstName: 'Brooklyn',
                 teamLastName: 'Nets',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/bkn.png'
+                teamLogo: `${LOGO_URL}bkn.png`
         },
         {
                 teamFirstName: 'Charlotte',
                 teamLastName: 'Hornets',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/cha.png'
+                teamLogo: `${LOGO_URL}cha.png`
         },
         {
                 teamFirstName: 'Chicago',
                 teamLastName: 'Bulls',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/chi.png'
+                teamLogo: `${LOGO_URL}chi.png`
         },
         {
                 teamFirstName: 'Cleveland',
                 teamLastName: 'Cavaliers',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/cle.png'
+                teamLogo: `${LOGO_URL}cle.png`
         },
         {
                 teamFirstName: 'Dallas',
                 teamLastName: 'Mavericks',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/dal.png'
+                teamLogo: `${LOGO_URL}dal.png`
         },
         {
                 teamFirstName: 'Denver',
                 teamLastName: 'Nuggets',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/den.png'
+                teamLogo: `${LOGO_URL}den.png`
         },
         {
                 teamFirstName: 'Detroit',
                 teamLastName: 'Pistons',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/det.png'
+                teamLogo: `${LOGO_URL}det.png`
         },
         {
                 teamFirstName: 'Golden State',
                 teamLastName: 'Warriors',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/gs.png'
+                teamLogo: `${LOGO_URL}gs.png`
         },
         {
                 teamFirstName: 'Houston',
                 teamLastName: 'Rockets',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/hou.png'
+                teamLogo: `${LOGO_URL}hou.png`
         },
         {
                 teamFirstName: 'Indiana',
                 teamLastName: 'Pacers',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/ind.png'
+                teamLogo: `${LOGO_URL}ind.png`
         },
         {
                 teamFirstName: 'Los Angeles',
                 teamLastName: 'Clippers',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/lac.png'
+                teamLogo: `${LOGO_URL}lac.png`
         },
         {
                 teamFirstName: 'Los Angeles',
                 teamLastName: 'Lakers',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/lal.png'
+                teamLogo: `${LOGO_URL}lal.png`
         },
         {
                 teamFirstName: 'Memphis',
                 teamLastName: 'Grizzlies',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/mem.png'
+                teamLogo: `${LOGO_URL}mem.png`
         },
         {
                 teamFirstName: 'Miami',
                 teamLastName: 'Heat',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/mia.png'
+                teamLogo: `${LOGO_URL}mia.png`
         },
         {
                 teamFirstName: 'Milwaukee',
                 teamLastName: 'Bucks',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/mil.png'
+                teamLogo: `${LOGO_URL}mil.png`
         },
         {
                 teamFirstName: 'Minnesota',
                 teamLastName: 'Timberwolves',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/min.png'
+                teamLogo: `${LOGO_URL}min.png`
         },
         {
                 teamFirstName: 'New Orleans',
                 teamLastName: 'Pelicans',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/no.png'
+                teamLogo: `${LOGO_URL}no.png`
         },
         {
                 teamFirstName: 'New York',
                 teamLastName: 'Knicks',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/ny.png'
+                teamLogo: `${LOGO_URL}ny.png`
         },
         {
                 teamFirstName: 'Oklahoma City',
                 teamLastName: 'Thunder',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/okc.png'
+                teamLogo: `${LOGO_URL}okc.png`
         },
         {
                 teamFirstName: 'Orlando',
                 teamLastName: 'Magic',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/orl.png'
+                teamLogo: `${LOGO_URL}orl.png`
         },
         {
                 teamFirstName: 'Philadelphia',
                 teamLastName: '76ers',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/phi.png'
+                teamLogo: `${LOGO_URL}phi.png`
         },
         {
                 teamFirstName: 'Phoenix',
                 teamLastName: 'Suns',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/phx.png'
+                teamLogo: `${LOGO_URL}phx.png`
         },
         {
                 teamFirstName: 'Portland',
                 teamLastName: 'Trail Blazers',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/por.png'
+                teamLogo: `${LOGO_URL}por.png`
         },
         {
                 teamFirstName: 'Sacramento',
                 teamLastName: 'Kings',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/sac.png'
+                teamLogo: `${LOGO_URL}sac.png`
         },
         {
                 teamFirstName: 'San Antonio',
                 teamLastName: 'Spurs',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/sa.png'
+                teamLogo: `${LOGO_URL}sa.png`
         },
         {
                 teamFirstName: 'Toronto',
                 teamLastName: 'Raptors',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/tor.png'
+                teamLogo: `${LOGO_URL}tor.png`
         },
         {
                 teamFirstName: 'Utah',
                 teamLastName: 'Jazz',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/utah.png'
+                teamLogo: `${LOGO_URL}utah.png`
         },
         {
                 teamFirstName: 'Washington',
                 teamLastName: 'Wizards',
-                teamLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/wsh.png'
+                teamLogo: `${LOGO_URL}wsh.png`
         }
 ]
 
