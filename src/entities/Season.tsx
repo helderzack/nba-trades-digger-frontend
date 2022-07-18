@@ -12,6 +12,6 @@ export class Season {
             this.year = year;
             this.type = type;
             this.name = name;
-            this.displayName =displayName;
+            this.displayName = displayName;
     }
 }
