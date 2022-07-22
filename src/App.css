@@ -10,15 +10,36 @@
     background-color: #f2f2f2;
 }
 
+.header-div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius:15px;
+}
+
+.header-div h1 {
+    font-style: italic;
+    background-image: linear-gradient(20deg, #1d428a, #c8102e);
+    background-clip: text;
+    color: transparent;
+}
+
 .main-content-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     flex-basis: 1;
+    gap: 10px;
 }
 
 .main-content-container div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px 30px;
     width: 30rem;
     height: 5rem;
     padding-left: 20px;
@@ -26,7 +47,11 @@
     box-shadow: 1px 3px 2px lightgrey;
     border: none;
     border-radius: 10px;
-    transition: all 0.5s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.main-content-container div img {
+    width: 10%;
 }
 
 .main-content-container div:hover {
