@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius:15px;
+}
+
+.header h1 {
+    font-style: italic;
+    background-image: linear-gradient(20deg, #1d428a, #c8102e);
+    background-clip: text;
+    color: transparent;
+}
+
+.nba-logo-div {
+    display: flex;
+    align-items: center;
+}
+
+.header #team-logo {
+    width: 8%;
+}

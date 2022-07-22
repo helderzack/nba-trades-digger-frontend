@@ -1,0 +1,18 @@
+.team-transaction-card {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px 30px;
+    width: 50rem;
+    height: 5rem;
+    box-shadow: 1px 3px 2px lightgrey;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.team-transaction-card img {
+    width: 10%;
+}
